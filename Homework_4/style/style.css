@@ -1,0 +1,402 @@
+html, body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.wide-wrapper{
+    width: 1487px;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 1296px;
+    margin: 0 auto;
+}
+h1{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 120%;
+    text-align: left;
+    vertical-align: middle;
+    margin-bottom: 24px;
+    }
+h2{
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 600;
+    margin-bottom: 12px;
+    }    
+h3{
+    font-size: 27px;
+    line-height: 120%;
+    font-weight: 600;
+}
+h4{
+    font-size: 21px;
+    line-height: 120%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+header{
+    padding: 22px 0;
+}
+nav,
+nav ul,
+nav ul li,
+nav button{
+    display: inline-block;
+}
+.logo{
+    width: 740px;
+    vertical-align: middle;
+}
+nav{
+    width: 740px;
+    text-align: right;
+    vertical-align: top;
+}
+.nav-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    color: #000000;
+    text-decoration: none;
+}
+nav li{
+    margin-right: 24px;
+}
+nav button{
+    border: 1px solid #2203E4;
+    color: #2203E4;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 16px;
+    background: none;
+}
+.container-main{
+    padding-top: 118px;
+    padding-bottom: 118px;
+    margin: 0 auto;
+}
+.title{
+    width: 631px;
+    padding-top: 120px;
+    vertical-align:middle;
+}
+.iphone13{
+    width: 470px;
+    padding-left: 48px;
+}
+.button-primary{
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 16px;
+    background: #0062FF;
+}
+.button-secondary{
+    color:#575757;
+    border:1px solid #575757;
+    font-size:16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 16px;
+    background: none;
+    margin-left: 24px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #575757;
+    }
+.title p{
+    color: #000000;
+    padding-bottom: 24px;
+}
+.authors{
+    margin-bottom: 143px;
+}
+.authors-header{
+    text-align: center;
+    margin-bottom: 36px;
+    width: 611px;
+    margin: 0 auto;
+    padding-bottom: 36px;
+    }
+.authors-block{
+    width: 1190px;
+    margin: 0 auto;
+}
+.authors-photo{
+    width: 162px;
+    padding-right: 34px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+}
+.author-info{
+    vertical-align:middle;
+    width: 645px;
+    }
+.author-info h4{
+    color: #575757;
+    }
+.author-info p{
+    color: #575757;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    }
+.vector{
+    margin-right: 19px;
+}
+.list-author{
+    vertical-align:middle;
+    margin: 7px auto;
+    width: 237px;
+}
+.list-author p{
+    color: #FFBE0B;
+    padding-left: 20px;
+}
+.list-author h4{
+    color: #DEA405;
+    padding-left: 20px;
+}
+.arrow-image{
+    vertical-align:middle;
+    margin: 28px 0px;
+    margin-right: 6px;
+}
+.active-author{
+    padding: 8px 0;
+    
+}
+.active-author h3{
+    color: #575757;
+    padding-right: 0px;
+}
+.active-author h4{
+    color: black;
+}
+.list-author{
+    width: 237px;
+    margin: 7px auto;
+}
+.list-author p{
+    color: #FFBE0B;
+    padding-left: 20px;
+}
+.list-author h4{
+    color: #DEA405;
+    padding-left: 20px;
+}
+.arrow-image{
+    vertical-align:middle;
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.active-author{
+    vertical-align:middle;
+    padding: 8px 0;
+}
+.active-author h3{
+    color: black;
+    padding-left: 0px;
+}
+.active-author h4{
+    padding-left: 0px;
+    color: #575757;
+}
+.for-who{
+    margin: 0 auto;
+    background-color: #0062FF;
+    text-align: center;
+    padding: 71px 0px;
+    color: white;
+}
+.for-who h2{
+    text-align: center;
+    padding-bottom: 16px;
+}
+.for-who p{
+    color: white;
+}
+.for-who-text{
+    text-align: center;
+    margin: 0 auto;
+    width: 611px;
+    padding-bottom: 64px;
+}
+.raw-blocks{
+    margin: 0 auto;
+    width: 1262px;
+    padding-bottom: 46px;
+}
+.block-item{
+    width: 607px;
+    vertical-align:middle;
+}
+.image-block{
+    width: 122px;
+    }
+.block-text{
+    width: 451px;
+    text-align: left;
+}
+.block-text h3{
+    padding-bottom: 8px;
+}
+.white-button{
+    padding: 9px 16px;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+    color: #2203E4;
+    background-color: white;
+    border: 1px solid #2203E4;
+    margin: 0 auto;
+    text-align: center;
+}
+.check-title{
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 44px;
+    width: 611px;
+    margin: 0 auto;
+} 
+.check-block{
+    width: 1103px;
+    margin: 0 auto;
+}
+.check-text-container{
+    margin-bottom: 130px;
+    width: 611px;
+}
+.check-text{
+    width: 611px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.check-text h4{
+    padding-bottom: 12px;
+}
+.image-check-demo{
+    width: 444px;
+}
+.opinions{
+    margin: 0 auto;
+    background-color: #FFBE0B;
+    text-align: center;
+    padding: 67px 0px;
+    color: black;
+}
+.opinions-title{
+    text-align: center;
+    margin: 0 auto;
+    width: 611px;
+    padding-bottom: 42px;
+}
+.opinion-person-white-block{
+    text-align: center;
+    margin: 0 auto;
+    width: 702px;
+    padding-bottom: 42px;
+    background-color: white;
+    color: black;
+    padding: 0 16px;
+    border-radius: 12px;
+}
+.opinion-image{
+    width: 47px;
+    padding: 95px 0;
+}
+.opinion-person{
+    text-align: left;
+    width: 611px;
+    padding: 59px 0;
+}
+.opinion-person p{
+    color: #575757;
+    padding-top: 16px;
+}
+.start{
+    width: 951px;
+    margin: 0 auto;
+    padding-top: 89px;
+}
+.start-title{
+    width: 611px;
+    text-align: center;
+    margin: 0 auto;
+}
+.product-block{
+    width: 951px;
+    margin: 74px auto;
+}
+.product-image{
+    width: 328px;
+}
+.product-info{
+    width: 611px;
+    text-align: left;
+    padding: 73px 0;
+}
+.number-review{
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.product-info h2{
+    color: #2203E4;
+    margin-bottom: 0;
+}
+.product-info p{
+    padding: 16px 0;
+}
+.form-block{
+    text-align: center;
+}
+form{
+    width: 508px;
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-bottom: 104px;
+}
+input{
+    width: 508px;
+    padding: 25px 24px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgba(58, 134, 255, 0.2);;
+}
+input::placeholder{
+    color: #2203E4;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-primary.form{
+    width: 508px;
+}
