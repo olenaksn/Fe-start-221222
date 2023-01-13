@@ -52,6 +52,11 @@ h4{
 }
 header{
     padding: 22px 0;
+    background-color: white;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+
 }
 nav,
 nav ul,
