@@ -75,7 +75,7 @@ a {
     background-size: 100%;
     margin: 0 auto;
     position: relative;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .linear{
     position: relative;
@@ -86,7 +86,7 @@ a {
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
     z-index: 2;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .header{
     display: flex;
@@ -196,7 +196,7 @@ h1 span{
     position:relative;
     top: -145px;
     z-index: 3;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin-bottom: 105px;
     /* width: 1461px; */
     margin: 0 auto;
@@ -264,7 +264,7 @@ h1 span{
     background-position: top;
     margin: 105px auto 250px auto;
     /* margin-bottom: 250px; */
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .arrow-left{
     position: absolute;
@@ -285,7 +285,7 @@ h1 span{
     align-content: center;
     top: 413px;
     /* left: 0px; */
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 0 auto;
 }
 .image-scroll-text h3{
@@ -343,7 +343,7 @@ h1 span{
 }
 .article2{
     position:relative;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     /* margin-bottom: 250px; */
     /* width: 1461px; */
     margin: 0 auto;
