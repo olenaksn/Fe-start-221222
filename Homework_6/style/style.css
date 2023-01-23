@@ -21,8 +21,11 @@ body{
     float: right;
 }
 .wrapper{
-    width: 1461px;
+    /* width: 1462px; */
+    width: 76.15%;
     margin: 0 auto;
+    display: flex;
+
 }
 h1{
     font-weight: 700;
@@ -63,14 +66,27 @@ a {
     text-decoration: none;
     margin: 0;
 }
-.main-background{
+.main{
     background-image: url(../img/Background-clear.png);
-    width: 1920px;
+    /* width: 1920px; */
     height: 1573px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-size: 100%;
     margin: 0 auto;
     position: relative;
+    border: 1px solid white;
+}
+.linear{
+    position: relative;
+    /* width: 100%; */
+    height: 358px;
+    left: 0px;
+    bottom: -430px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    z-index: 2;
+    border: 1px solid white;
 }
 .header{
     display: flex;
@@ -176,33 +192,34 @@ h1 span{
 .main-text h4:hover{
     font-weight: 700;
 }
-.linear{
-    position: relative;
-    width: 1920px;
-    height: 358px;
-    left: 0px;
-    top: 447px;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-    z-index: 2;
-    /* border: 1px solid white; */
-}
-.article1{
+.article{
     position:relative;
     top: -145px;
     z-index: 3;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     margin-bottom: 105px;
+    /* width: 1461px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-block{
+    width: 41%;
+}
+.flex-image{
+    width: 100%;
 }
 .article-text{
     padding-left: 232px;
-    width: 840px;
+    width: 58%;
+    /* width: 840px; */
 }
 .article-text h3{
     letter-spacing: 6px;
     text-transform: uppercase;
     margin-bottom: 27px;
-    margin-top: 85px;
+    /* margin-top: 85px; */
     padding-left: 96px;
 
 }
@@ -240,26 +257,35 @@ h1 span{
 }
 .image-scroll{
     position:relative;
+    background-image: url(../img/Background2.png);
     height: 962px;
-    margin-bottom: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 105px auto 250px auto;
+    /* margin-bottom: 250px; */
+    border: 1px solid white;
 }
 .arrow-left{
     position: absolute;
-    top: 45px;
     left: 51px;
-  }
-  .arrow-right{
+    top: 436px;
+}
+.arrow-right{
     position: absolute;
-    top: 45px;
     right: 51px;
-  }
+    top: 436px;
+}
 .image-scroll-text{
-    width: 1461px;
+    /* width: 1461px; */
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    position: absolute;
-    top: 451px;
-    left: 0px;
-    /* border: 1px solid white; */
+    position: relative;
+    align-content: center;
+    top: 413px;
+    /* left: 0px; */
+    border: 1px solid white;
     margin: 0 auto;
 }
 .image-scroll-text h3{
@@ -317,13 +343,20 @@ h1 span{
 }
 .article2{
     position:relative;
-    /* border: 1px solid white; */
-    margin-bottom: 250px;
+    border: 1px solid white;
+    /* margin-bottom: 250px; */
+    /* width: 1461px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .article-text2{
     padding-left: 42.51px;
-    width: 674px;
-    margin-top: 115px;
+    padding-right: 210px;
+    /* width: 674px; */
+    width: 58%;
+    /* margin-top: 115px; */
 }
 .article-text2 h3{
     letter-spacing: 6px;
@@ -360,6 +393,11 @@ h1 span{
 }
 .article-text2 p{
     font-weight: 400;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
 }
 .getstarted{
     display: flex;
@@ -401,28 +439,32 @@ h1 span{
     background-color: #f78306;
 }
 .divider{
-    position: absolute;
-    width: 1460.72px;
+    /* position: absolute; */
+    /* width: 1460.72px; */
+    width: 100%;
     height: 1.38px;
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.3;   
 }
 .footer-block{
-    display: table;
+    display: flex;
+    /* display: table; */
     margin-bottom: 101px;
     margin-top: 55px;
     
 }
 .footer-column{
     display: table-cell;
+    justify-content: center;
+    align-items: center;
     padding-right: 100px;
     padding-bottom: 0;
 }
 .footer-column:nth-child(1){
     width: 46%;
-    padding-right: 240px;
-    position: relative;
+    /* padding-right: 240px;
+    position: relative; */
 }
 .footer-title{
     font-family: 'Open Sans';

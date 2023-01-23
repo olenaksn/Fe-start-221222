@@ -15,7 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="main-background">
+    <section class="main">
         <div class="header">
             <nav class="logo">
                 <a href=""><img src="img/Logo.svg" alt=""></a>
@@ -53,9 +53,9 @@
         </div>
         <div class="linear"></div>
     </section>
-    <section class="article1 wrapper clearfix">
+    <section class="article wrapper clearfix">
         <div class="image-block left">
-            <img src="img/imageblock_left.png" alt="">
+            <img class="flex-image" src="img/imageblock_left.png" alt="">
         </div>
         <div class="article-text right">
             <h3>
@@ -73,12 +73,12 @@
         </div>
     </section>
     <section class="image-scroll wrapper">
-        <img src="img/Background2.png" alt="">
+        <!-- <img src="img/Background2.png" alt=""> -->
+        <div class="scroll-arrows">
+            <a href class="arrow-left"><img src="img/arrow_scroll_left.png" alt=""></a>
+            <a href class="arrow-right"><img src="img/arrow_scroll_right.png" alt=""></a>
+        </div>
         <div class="image-scroll-text">
-            <div class="scroll-arrows">
-                <a href class="arrow-left"><img src="img/arrow_scroll_left.png" alt=""></a>
-                <a href class="arrow-right"><img src="img/arrow_scroll_right.png" alt=""></a>
-            </div>
             <h3>Bromo</h3>
             <h2>Steady your steps, we <br> will climb together!</h2>
             <p>
@@ -90,9 +90,6 @@
         </div>
     </section>
     <section class="article2 wrapper clearfix">
-        <div class="image-block right">
-            <img src="img/imageblock_right.png" alt="">
-        </div>
         <div class="article-text2 left">
             <h3>
                 INDONESIAN CULTURE
@@ -106,6 +103,9 @@
                 read more 
             </h4></a>
         </div>
+        <div class="image-block right">
+            <img class="flex-image" src="img/imageblock_right.png" alt="">
+        </div>
     </section>
     <section class="footer wrapper">
         <div class="getstarted">
@@ -118,7 +118,7 @@
         <div class="divider"></div>
         <div class="footer-block">
             <div class="footer-column">
-                <p class="footer-title">Let's go on vacation, Make your day</p>
+                <p class="footer-title">Let's go on vacation, <br>Make your day</p>
                 <form action="#">
                     <input type="email" placeholder="Email address">
                     <a href="#" class="subscribe-btn"><img src="img/arrow_btn.png" alt="Subscribe"></a>
