@@ -362,7 +362,7 @@ footer{
         align-items: center;
         text-align: center;
         gap: 47px;
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
     .page-up{
         bottom: 15px;
