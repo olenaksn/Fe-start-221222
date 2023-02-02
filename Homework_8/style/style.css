@@ -128,7 +128,8 @@ header{
 
 }
 .round-items-block{
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 26px;
     justify-content: center;
 }
@@ -349,6 +350,8 @@ footer{
     }
     .news-row{
         flex-direction: column;
+    }
+
 }
 @media(max-width:600px){
     .main{
@@ -367,5 +370,12 @@ footer{
     .page-up{
         bottom: 15px;
         right: 15px;
+    }
+}
+@media(max-width: 1240px){
+    .round-items-block{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
     }
 }
