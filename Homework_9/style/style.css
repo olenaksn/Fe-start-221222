@@ -50,8 +50,10 @@ h3{
 }
 .header-block{
     display: flex;
+    width: 1000px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 40px;
 }
 .menu-block{
@@ -141,7 +143,7 @@ h3{
 }
 .story-grid>div{
     align-content: space-between;
-    display: grid;  
+    /* display: grid;   */
 }
 .story-grid>div:nth-child(4){
     justify-items: start;
@@ -256,19 +258,17 @@ h3{
 }
 .photo-block .underline{
     color: white;
-
 }
 .collection-grid img{
     width: 100%;
 }
 .view{
     text-align: right;
-
 }
 .vintage{
     background-image: url(../img/bg-area.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: top;
     height: 100%;
 }
@@ -317,7 +317,6 @@ h3{
     grid-column-gap: 1.2%;   
     /* border: 1px solid green; */
     justify-content: space-between;
-
 }
 .col-grid-1{
     display: grid;
@@ -350,7 +349,6 @@ h3{
     grid-column-gap: 2%;   
     grid-row-gap: 2%;
 }
-
 .col-grid-3{
     display: grid;
     grid-template-columns: 25.5% 29.4% 39.2%;
@@ -552,6 +550,10 @@ h3{
 }
 }
 @media(max-width:1240px){
+    .header-block{
+        padding-top: 15px;
+
+    }
     .main{
         height: 750px;
     }
@@ -582,7 +584,7 @@ h3{
         justify-content: center;
         gap: 27px;
         top: 80px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         z-index: 1;
     }
     .menu-block-item{
@@ -596,9 +598,19 @@ h3{
         text-decoration: none;
         text-align: center;
     }
+    .header-btn{
+        width: 950px;
+        margin-top: 10px;
+    }
     .header-btn a{
         margin-left: 0;
     }
+    .story{
+        padding: 60px 0 60px 0;
+    }
+    .story-content h2{
+        margin-bottom: 50px;
+    } 
     .story-grid{
         display: grid;
         grid-template-columns: 1fr;
@@ -663,12 +675,8 @@ h3{
         grid-column: 2;
         grid-row: 2;
     }
-    .vintage{
-        background-size: 120%;
-        height: 560px;
-    }
    .vintage-content{
-    padding-top: 30px;
+    padding: 60px 0 60px 0;
     font-size: 18px;
     line-height: 20px;
    }
@@ -679,6 +687,9 @@ h3{
     .vintage-grid>div{
         padding-right: 20px;
     }
+    .awards{
+        padding: 60px 0 60px 0;
+    }
     .diversity-content{
         padding-top: 60px;
         padding-bottom: 60px;
@@ -688,7 +699,10 @@ h3{
         line-height: 24px;
     }
     .footer-grid{
-        margin-top: 40px;
+        margin-top: 30px;
+    }
+    .footer-content{
+        padding-top: 60px;
     }
     .footer-content>h2{
         font-size: 30px;
@@ -710,13 +724,20 @@ h3{
     .footer{
         height: 100%;
     }
+    .line{
+        margin: 40px 0 10px 0;
+    }
 }
+
 @media(max-width:924px){
+    .wrapper{
+        width: 95%;
+    }
     .footer-grid{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr 38.5% 55.2%;
-        margin-top: 60px;
+        margin-bottom: 0;
         grid-column-gap: 34px;
         grid-row-gap: 32px;
     }
@@ -748,10 +769,9 @@ h3{
     .footer-bottom-text{
         flex-direction: column;
         gap: 10px;
+        margin-bottom: 10px;
     }
-    .line{
-        margin: 40px 0 20px 0;
-    }
+
 }
 @media(max-width:770px){
     H1{
@@ -761,7 +781,6 @@ h3{
     h2{
         font-size: 20px;
         line-height: 25px;
-
     }
     .story-content h2{
         margin-bottom: 40px;
